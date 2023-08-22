@@ -11,5 +11,10 @@ module.exports = {
       path: '/food/eat', 
       handler: 'food.eat',
     },
+    {
+      method: 'GET',
+      path: '/food/getCustomFoods', 
+      handler: 'food.getCustomFoods',
+    },
   ]
 }
